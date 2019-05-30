@@ -10,4 +10,5 @@ echo "Applying color palette"...
 mogrify -dither None -remap ~/Desktop/fisk/palette/fisk.png *.png
 echo "Inflating image sizes..."
 mogrify -scale 5760 *.png
-cd -
+echo "Done"
+cd - > /dev/null
