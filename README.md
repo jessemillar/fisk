@@ -11,4 +11,4 @@ Initial color palette stolen from [Harold Fisk's map of the Mississippi River](h
 Depends on [ImageMagick](https://imagemagick.org/index.php).
 
 ## Example
-![Robert Horvick Epcot](results/robert-horvick-1463719-unsplash)
+![Robert Horvick Epcot](results/robert-horvick-1463719-unsplash.png)
