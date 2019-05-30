@@ -1,5 +1,5 @@
 ## Overview
-Fisk is a helpful wrapper for [ImageMagick](https://imagemagick.org/index.php) that makes it quick and easy to generate interesting images for use as wallpapers.
+Fisk is a quick and dirty wrapper for [ImageMagick](https://imagemagick.org/index.php) that makes it easy to generate interesting images for use as wallpapers.
 
 I was inspired by [this Reddit thread](https://www.reddit.com/r/proceduralgeneration/comments/bu5ffk/blobs_20_source_code_in_the_comments/?utm_source=share&utm_medium=ios_app).
 
@@ -15,6 +15,9 @@ Initial color palette (and project name) stolen from [Harold Fisk's map of the M
 1. Generate a palette image as described above
 1. Download images (`.png` or `.jpg`) you would like to convert and place them in a directory
 1. Run `fiskify.sh` and point it to your palette and the directory containing your images (e.g. `./fiskify.sh palettes/fisk.png results`
+
+## Notes
+- Limiting your color palette to 4-6 colors works best.
 
 ## Dependencies
 Depends on [ImageMagick](https://imagemagick.org/index.php).

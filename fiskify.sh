@@ -1,14 +1,12 @@
 #!/usr/bin/env bash
 
-cd $2
 echo "Transcoding images"...
-mogrify -format png *.jpg
-rm *.jpg
+mogrify -format png $2/*.jpg
+rm $2/*.jpg
 echo "Shrinking image sizes"...
-mogrify -resize 1920 *.png
+mogrify -resize 1920 $2/*.png
 echo "Applying color palette"...
-mogrify -dither None -remap $1 *.png
+mogrify -dither None -remap $1 $2/*.png
 echo "Inflating image sizes..."
-mogrify -scale 5760 *.png
+mogrify -scale 5760 $2/*.png
 echo "Done"
-cd - > /dev/null
