@@ -1,7 +1,9 @@
 ## Overview
-Inspired by [this Reddit thread](https://www.reddit.com/r/proceduralgeneration/comments/bu5ffk/blobs_20_source_code_in_the_comments/?utm_source=share&utm_medium=ios_app).
+Fisk is a helpful wrapper for [ImageMagick](https://imagemagick.org/index.php) that makes it quick and easy to generate interesting images for use as wallpapers.
 
-Initial color palette stolen from [Harold Fisk's map of the Mississippi River](http://www.radicalcartography.net/index.html?fisk).
+I was inspired by [this Reddit thread](https://www.reddit.com/r/proceduralgeneration/comments/bu5ffk/blobs_20_source_code_in_the_comments/?utm_source=share&utm_medium=ios_app).
+
+Initial color palette (and project name) stolen from [Harold Fisk's map of the Mississippi River](http://www.radicalcartography.net/index.html?fisk).
 
 ## Usage
 ### Generating Palettes
