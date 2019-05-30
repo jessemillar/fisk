@@ -14,7 +14,7 @@ Initial color palette (and project name) stolen from [Harold Fisk's map of the M
 ### Generating Results
 1. Generate a palette image as described above
 1. Download images (`.png` or `.jpg`) you would like to convert and place them in a directory
-1. Run `fiskify.sh` and point it to the directory containing your images (e.g. `./fiskify.sh results`
+1. Run `fiskify.sh` and point it to your palette and the directory containing your images (e.g. `./fiskify.sh palettes/fisk.png results`
 
 ## Dependencies
 Depends on [ImageMagick](https://imagemagick.org/index.php).
