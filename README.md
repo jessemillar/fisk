@@ -18,6 +18,7 @@ Initial color palette (and project name) stolen from [Harold Fisk's map of the M
 
 ## Notes
 - Limiting your color palette to 4-6 colors works best.
+- macOS does not preserve crisp pixels for wallpaper images that are cropped in a portrait orientation so `fiskify.sh` automatically crops finalized images to an acceptable aspect ratio. If your portrait wallpaper has a focal point not in the center, crop the image prior to running `fiskify.sh`.
 
 ## Dependencies
 Depends on [ImageMagick](https://imagemagick.org/index.php).

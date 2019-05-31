@@ -9,4 +9,6 @@ echo "Applying color palette"...
 mogrify -dither None -remap $1 $2/*.png
 echo "Inflating image sizes..."
 mogrify -scale 5760 $2/*.png
+echo "Cropping for crisp pixels"
+mogrify -gravity center -crop 5760x3840+0+0 $2/*.png
 echo "Done"
